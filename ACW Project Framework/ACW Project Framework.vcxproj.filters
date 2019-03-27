@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DDSImages">
+      <UniqueIdentifier>{b8000df3-5906-46bd-b28d-105d86e69982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader Classes">
+      <UniqueIdentifier>{edad2164-868e-4e75-9b22-4e545fe4a22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture Loader">
+      <UniqueIdentifier>{eec2964f-1e26-4549-92ea-5f87347ea072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader Headers">
+      <UniqueIdentifier>{75995f69-ccb5-4369-a406-1d0001a524bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture Loader">
+      <UniqueIdentifier>{d457cf19-3c11-4047-ba9a-0157afbab88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{90a586ff-d1ce-437f-a102-2465d4c79f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{e0a0f01c-f1c9-47c2-b58a-55ab3a74fbc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primitives">
+      <UniqueIdentifier>{751a7120-19c3-4ee6-acd1-00ca6aad8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{ec710082-273d-4e28-b163-082f7b12417a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primitives">
+      <UniqueIdentifier>{fe0340e4-3eaf-4b40-8899-82b666cc5388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{84e6ab33-3c68-40e1-9bca-f26ed94c8b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{81daba7b-59d4-442c-8427-3f31bd99c911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files\Texture Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourShader.cpp">
+      <Filter>Source Files\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Source Files\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Shader Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Velocity.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="XMFLOAT3Maths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactManifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="ResolutionManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Header Files\Texture Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourShader.h">
+      <Filter>Header Files\Shader Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Header Files\Shader Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Shader Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="XMFLOAT3Maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactManifold.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolutionManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ColourPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LightPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TexturePixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LightVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="seafloor.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="bins.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="sphere.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="sphere2.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture1.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture2.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture3.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture4.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture5.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture6.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture7.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture8.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture9.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="texture10.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+    <Image Include="walls.dds">
+      <Filter>DDSImages</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ACW Project Framework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
